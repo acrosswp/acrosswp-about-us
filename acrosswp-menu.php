@@ -71,8 +71,8 @@ if( ! class_exists( 'AcrossWP_Main_Menu' ) ) {
 		 */
 		function main_menu() {
 			add_menu_page(
-				__( 'AcrossWP', 'post-anonymously' ),
-				__( 'AcrossWP', 'post-anonymously' ),
+				__( 'AcrossWP', 'acrosswp' ),
+				__( 'AcrossWP', 'acrosswp' ),
 				'manage_options',
 				ACROSSWP_MAIN_MENU,
 				array( $this, 'about_acrosswp' )
