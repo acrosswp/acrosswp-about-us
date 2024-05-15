@@ -173,5 +173,9 @@ if( ! class_exists( 'AcrossWP_Main_Menu' ) ) {
 				define( $name, $value );
 			}
 		}
-	}	
+	}
+
+
+	var_dump( "Tetsew 1" );
+	AcrossWP_Main_Menu::instance();
 }
